@@ -1,0 +1,3 @@
+/opt/services/test/array-processor/src/test/java/com/example/arrayprocessor/unit/service/SearchArrayServiceTest.java
+/opt/services/test/array-processor/src/test/java/com/example/arrayprocessor/ArrayProcessorApplicationTests.java
+/opt/services/test/array-processor/src/test/java/com/example/arrayprocessor/unit/controller/SearchArrayDtoControllerTest.java

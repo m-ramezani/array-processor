@@ -1,0 +1,14 @@
+/opt/services/test/array-processor/src/main/java/com/example/arrayprocessor/exception/UserNotFoundException.java
+/opt/services/test/array-processor/src/main/java/com/example/arrayprocessor/exception/UserAlreadyExistsException.java
+/opt/services/test/array-processor/src/main/java/com/example/arrayprocessor/web/rest/ArraySearchController.java
+/opt/services/test/array-processor/src/main/java/com/example/arrayprocessor/service/ArraySearchServiceImpl.java
+/opt/services/test/array-processor/src/main/java/com/example/arrayprocessor/exception/ProductNotFoundException.java
+/opt/services/test/array-processor/src/main/java/com/example/arrayprocessor/dto/SearchArrayDto.java
+/opt/services/test/array-processor/src/main/java/com/example/arrayprocessor/exception/ReviewNotFoundException.java
+/opt/services/test/array-processor/src/main/java/com/example/arrayprocessor/exception/UnauthorizedException.java
+/opt/services/test/array-processor/src/main/java/com/example/arrayprocessor/dto/SearchResult.java
+/opt/services/test/array-processor/src/main/java/com/example/arrayprocessor/ArrayProcessorApplication.java
+/opt/services/test/array-processor/src/main/java/com/example/arrayprocessor/service/ArraySearchService.java
+/opt/services/test/array-processor/src/main/java/com/example/arrayprocessor/exception/CustomExceptionHandler.java
+/opt/services/test/array-processor/src/main/java/com/example/arrayprocessor/exception/AccessDeniedException.java
+/opt/services/test/array-processor/src/main/java/com/example/arrayprocessor/exception/CommentDisabledException.java
