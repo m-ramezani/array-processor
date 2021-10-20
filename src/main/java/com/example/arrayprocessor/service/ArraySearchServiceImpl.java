@@ -22,7 +22,7 @@ public class ArraySearchServiceImpl implements ArraySearchService {
 
         arrayValidator.validateSearchArray(searchArrayDto);
 
-        Map<Integer, Integer> elementToDiff = new HashMap<>();
+        Map<Integer, Integer> elementToElementDiff = new HashMap<>();
         int searchValue = searchArrayDto.getSearchValue();
         int elementDiff;
         boolean found = false;
@@ -32,8 +32,8 @@ public class ArraySearchServiceImpl implements ArraySearchService {
         for (int element : searchArrayDto.getArray()) {
             if (element < searchValue && !found) {
                 elementDiff = searchValue - element;
-                if (elementToDiff.get(elementDiff) == null) {
-                    elementToDiff.put(element, elementDiff);
+                if (elementToElementDiff.get(elementDiff) == null) {
+                    elementToElementDiff.put(element, elementDiff);
                 } else {
                     resultArray[0] = element;
                     resultArray[1] = elementDiff;
